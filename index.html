@@ -7,7 +7,13 @@
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/bootstrap-custom.css" rel="stylesheet">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
+<link href="css/jquery.fancybox.min.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
+
+<!--SEO-->
+<meta name="Description" content="Página de contacto de Oshine 11 en el cual puedes comunicarte con nuestro equipo, además, podrás ubicar nuestras direcciones físicas en Google Maps.">
+<meta name="Keywords" content="contacto de oshine, sucursales, oficinas, mapa en google de oshine, página de contacto">
+
 
 </head>
 
@@ -55,7 +61,7 @@
 					<a class="nav-link" href="#">Portfolio</a>
 				  </li>
 				  <li class="nav-item">
-					<a class="nav-link" href="#">Contact</a>
+					<a class="nav-link" href="contact.html">Contact</a>
 				  </li>
 				</ul>
 			  </div>
@@ -178,13 +184,26 @@
 		
 		<div class="row">
 			<article class="col-md-4 col-sm-12">
-				<img src="img/img-strategy.jpg" class="img-fluid" alt="Strategy">
+				<div class="capa-relative">
+					<img src="img/img-strategy.jpg" class="img-fluid" alt="Strategy">
+					<div class="capa-overlay"></div>
+					<div class="capa-texto">
+						<p>Strategy</p>
+					</div>
+				</div>
 				<h4>Strategy</h4>
 				<p>Stylish typography, loads of white space, and pixel perfect design,  karter it the ultimate theme for creatives.</p>
 				<a href="#">Learn more</a>
 			</article>
 			<article class="col-md-4 col-sm-12">
-				<img src="img/img-execution.jpg" class="img-fluid" alt="Execution">
+				<div class="capa-relative">
+					<img src="img/img-execution.jpg" class="img-fluid" alt="Execution">
+					<div class="capa-texto">
+						<a data-fancybox href="https://www.youtube.com/watch?v=6xeZcE3upL8"><i class="fas fa-search"></i></a>
+					</div>
+				</div>
+				
+				
 				<h4>Execution</h4>
 				<p>Every line of code crafted to perfection, optimized for super fast performance and is cross browser compatible.</p>
 				<a href="#">Learn more</a>
@@ -200,9 +219,55 @@
 	</div>
 </section>
 
+<section id="results">
+<div class="overlay">
+	<div class="container">
+		
+		<h2>Web Delivery Results</h2>
+		<h3>Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</h3>
+		<a href="#" class="btn btn-primary">Get In Touch</a>
+		
+	</div>
+</div>
+</section>
+
+
+<footer>
+	<div class="container">
+		<div class="row">
+			<article class="col-md-6 col-sm-12">
+				<p>Copyright Brand Exponents 2020. All Rights Reserved</p>
+			</article>
+			<article class="col-md-6 col-sm-12">
+				<ul class="list-inline mb-0 text-right list-social">
+					<li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+					<li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+					<li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+				</ul>
+			</article>
+		</div>
+	</div>
+</footer>
+
+
+
+
 
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.fancybox.min.js"></script>
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FSJK4GY6EY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FSJK4GY6EY');
+</script>
 
 </body>
 </html>
