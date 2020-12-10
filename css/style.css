@@ -242,8 +242,37 @@ footer{
 
 
 
+/*Computadora*/
+@media (min-width:1200px){
+	
+	
+}
 
+/*Tableta*/
+@media (min-width:600px) and (max-width:1200px){
+	
+	
+}
 
+/*Celular*/
+@media (max-width:600px){
+	
+	.carousel-caption h2{
+		font-size: 24px;
+		text-align: center;
+	}
+	.carousel-caption p{
+		display: none;
+	}
+	.carousel-caption img{
+		display: none;
+	}
+	.btn-primary{
+		padding: 5px 10px;
+	}
+	
+	
+}
 
 
 
